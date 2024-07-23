@@ -6,6 +6,7 @@ void main() {
     // MaterialApp 은 항상 최상단에 위치한다.
     // Scaffold는 바로 아래 위치한다.
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Center(
